@@ -3,7 +3,7 @@
 **CDVYogaAgoraRTC插件地址：<https://github.com/LKG-TEAM/CDVYogaAgoraRTC.git>**
 
 ## 具体使用
- 详见[/www/js/index.js](https://github.com/LKG-TEAM/CDVYogaAgoraRTC/blob/main/www/js/index.js)文件
+ 详见[/www/js/index.js](https://github.com/LKG-TEAM/AgoraCordovaDemo/blob/main/www/js/index.js)文件
 
 ## 布局约束规则
 
