@@ -27,6 +27,10 @@
 
 `5.我们定义margin的四个值在0-1之间为百分比约束`
 
+#### Demo安装
+请扫码安装
+![Pandao editor.md](https://github.com/LKG-TEAM/AgoraCordovaDemo/blob/main/images/QR.png "Pandao editor.md")
+
 #### 截图
 
 ![Pandao editor.md](https://github.com/LKG-TEAM/AgoraCordovaDemo/blob/main/images/IMG_5797.PNG "Pandao editor.md")
