@@ -1,0 +1,53 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"YogaAgora\"><param name=\"ios-package\" value=\"YogaAgora\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "*-Info.plist": {
+        "parents": {
+          "NSCameraUsageDescription": [
+            {
+              "xml": "<string>App uses camera.</string>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.blockchain.dev"
+    },
+    "CDVYogaAgoraRTC": {
+      "PACKAGE_NAME": "com.blockchain.dev"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "CDVYogaAgoraRTC.CDVYogaAgoraRTC",
+      "file": "plugins/CDVYogaAgoraRTC/www/CDVYogaAgoraRTC.js",
+      "pluginId": "CDVYogaAgoraRTC",
+      "clobbers": [
+        "YogaAgoraRTC"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-whitelist": "1.3.4",
+    "CDVYogaAgoraRTC": "0.0.1"
+  }
+}
