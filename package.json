@@ -14,7 +14,7 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "cordova-ios": "^6.1.1",
-    "cordova-plugin-agora-yoga": "git+https://github.com/LKG-TEAM/CDVYogaAgoraRTC.git",
+    "cordova-plugin-agora-yoga": "file:../CDVYogaAgoraRTC",
     "cordova-plugin-whitelist": "^1.3.4"
   },
   "cordova": {
