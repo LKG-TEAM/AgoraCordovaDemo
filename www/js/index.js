@@ -41,6 +41,8 @@ function onDeviceReady() {
             "token": token,
             "channelId": channelId,
             "uid": uid,
+            "enableVideo": false,
+            "enableAudio": false
         });
         
         AgoraRTC.setVideoFrameRate(30);//设置fps
@@ -107,6 +109,9 @@ function onDeviceReady() {
              }
              */
         });
+        
+        AgoraRTC.muteLocalVideo(false);
+        AgoraRTC.muteLocalAudio(false);
     });
     
     document.getElementById("agora_sample_teacher").addEventListener('click', function() {
