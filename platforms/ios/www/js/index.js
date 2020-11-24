@@ -36,7 +36,7 @@ function onDeviceReady() {
         /*
          Agora初始化设置
          */
-        AgoraRTC.setUp({
+        AgoraRTC.init({
             "appId": appId,
             "token": token,
             "channelId": channelId,
@@ -80,7 +80,7 @@ function onDeviceReady() {
         /*
          Agora初始化设置
          */
-        AgoraRTC.setUp({
+        AgoraRTC.init({
             "appId": appId,
             "token": token,
             "channelId": channelId,
@@ -115,7 +115,7 @@ function onDeviceReady() {
         /*
          Agora初始化设置
          */
-        AgoraRTC.setUp({
+        AgoraRTC.init({
             "appId": appId,
             "token": token,
             "channelId": channelId,
