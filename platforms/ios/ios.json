@@ -42,7 +42,7 @@
       "file": "plugins/CDVYogaAgoraRTC/www/CDVYogaAgoraRTC.js",
       "pluginId": "CDVYogaAgoraRTC",
       "clobbers": [
-        "YogaAgoraRTC"
+        "AgoraRTC"
       ]
     }
   ],
