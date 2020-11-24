@@ -22,7 +22,7 @@
 document.addEventListener('deviceready', onDeviceReady, false);
 
 let appId = "1b895e0d415d42c0bc673f05ec83f26b";
-let token = "0061b895e0d415d42c0bc673f05ec83f26bIACubNY2ZrG246kXpRT+iQLIekY5ktbVMvFDzIVuwNIDiKiNhRAAAAAAEABVr+wwIG28XwEAAQAfbbxf";
+let token = "0061b895e0d415d42c0bc673f05ec83f26bIACg1FQdVpYfIWJ2/SEvY+pBCNLEA82q70zTrHjNdI3vl6iNhRAAAAAAEABVr+wwoSi+XwEAAQChKL5f";
 let channelId = "channel_test_sh";
 let uid = "1";
 
@@ -72,6 +72,40 @@ function onDeviceReady() {
         AgoraRTC.on("localVideoStateChange", function(evt){
             AgoraRTC.NSLog("[localVideoStateChange]的回调");
             AgoraRTC.NSLog(evt);
+        });
+        AgoraRTC.on("stream-added", function(evt) {
+            AgoraRTC.NSLog("[stream-added]的回调");
+            AgoraRTC.NSLog(evt);
+            AgoraRTC.NSLog("[Native call js](有用户加入)");
+            let uid = evt["uid"];
+            AgoraRTC.NSLog("uid: "+evt["uid"]);
+            if(uid == 2) {
+                AgoraRTC.muteRemoteAudioStream(uid, false);// 开启或关闭新加入用户的音频流(默认是开启的，不需要调用)
+                AgoraRTC.muteRemoteVideoStream(uid, false);// 开启或关闭新加入用户的视频流(默认是开启的，不需要调用)
+                AgoraRTC.addRemoteUserView(uid, "我是学生2");// 将新加入用户的视频view显示出来
+            }else {
+                AgoraRTC.muteRemoteAudioStream(uid, true);// 开启或关闭新加入用户的音频流(默认是开启的，不需要调用)
+                AgoraRTC.muteRemoteVideoStream(uid, true);// 开启或关闭新加入用户的视频流(默认是开启的，不需要调用)
+            }
+            
+            /*
+             我们可以在这里处理老师或学生的情况
+             以下是一段为代码逻辑:
+             if (self.uid == 'teacherUid') {
+                //本人是老师，那么其他人都将是学生，此时需要任一新加入学生，都要显示其视频view、接收其音视频流
+                 AgoraRTC.addRemoteUserView(uid);
+             }else {
+                //本人是学生，那么需要依据uid来判断是同学还是老师
+                if (uid == 'teacherUid') {
+                    //需要接收老师的音视频
+                    AgoraRTC.addRemoteUserView(uid);
+                }else {
+                    //屏蔽同学的音视频
+                    AgoraRTC.muteRemoteAudioStream(uid, true);
+                    AgoraRTC.muteRemoteVideoStream(uid, true);
+                }
+             }
+             */
         });
     });
     
@@ -210,7 +244,7 @@ function yogaAgoraRTCDidJoinedOfUidAndElapsed(uid, elapsed) {
     AgoraRTC.NSLog("uid: "+uid);
 //    AgoraRTC.muteRemoteAudioStream(uid, true);// 开启或关闭新加入用户的音频流(默认是开启的，不需要调用)
 //    AgoraRTC.muteRemoteVideoStream(uid, true);// 开启或关闭新加入用户的视频流(默认是开启的，不需要调用)
-    AgoraRTC.addRemoteUserView(uid, "我是学生1");// 将新加入用户的视频view显示出来
+//    AgoraRTC.addRemoteUserView(uid, "我是学生1");// 将新加入用户的视频view显示出来
     
     /*
      我们可以在这里处理老师或学生的情况
