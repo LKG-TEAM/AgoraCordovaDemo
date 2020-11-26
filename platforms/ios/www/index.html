@@ -29,7 +29,11 @@
             * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta http-equiv="Content-Security-Policy" content="
+                                    default-src * data: blob: ws: wss: gap://ready file://*;
+                                    style-src * 'unsafe-inline';
+                                    script-src * 'unsafe-inline' 'unsafe-eval';
+                                    connect-src * ws: wss:;">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
@@ -49,7 +53,10 @@
                 <div id="agora_sample_student" class="event listening button">Agora-Yoga(输入uid的sample入口)(推荐)(模拟学生)</div>
                 <div id="agora_leave" class="event listening button">离开</div>
 <!--                <div id="agora_add_one_user" class="event listening button">新增一个远程视图</div>-->
-                <div id="agora_close" class="event listening button">关闭视图</div>
+                <div id="agora_close" class="event listening button">关闭</div>
+                <div id="agora_safari" class="event listening button">safari</div>
+                <div id="agora_back" class="event listening button">测试返回</div>
+                <div id="agora_share" class="event listening button">测试分享</div>
             </div>
         </div>
         <script src="cordova.js"></script>

@@ -19,6 +19,10 @@
         "Masonry": {
             "name": "Masonry",
             "count": 1
+        },
+        "GCDWebServer": {
+            "name": "GCDWebServer",
+            "count": 1
         }
     }
 }

@@ -183,15 +183,39 @@ function onDeviceReady() {
         AgoraRTC.joinWithSheet(function(msg) {});// Sample启动
     });
     
+    document.getElementById("agora_leave").addEventListener('click', function() {
+        AgoraRTC.NSLog("agora_leave clicked");
+        AgoraRTC.leave();
+    });
+    
     document.getElementById("agora_close").addEventListener('click', function() {
         AgoraRTC.NSLog("agora_close clicked");
         AgoraRTC.removeLocalView();
         AgoraRTC.removeRemoteView();
     });
     
-    document.getElementById("agora_leave").addEventListener('click', function() {
-        AgoraRTC.NSLog("agora_leave clicked");
-        AgoraRTC.leave();
+    document.getElementById("agora_safari").addEventListener('click', function() {
+        AgoraRTC.NSLog("agora_safari clicked");
+        
+        AgoraRTC.safari("https://zipyoga.jp");
+    });
+    
+    document.getElementById("agora_back").addEventListener('click', function() {
+        AgoraRTC.NSLog("agora_back clicked");
+        
+        AgoraRTC.safari("https://zipyoga.jp");
+        setTimeout(function() {
+            var XMLHttpReq;
+            XMLHttpReq = new XMLHttpRequest();
+            XMLHttpReq.open("get", "http://localhost:8080/back", true);
+            XMLHttpReq.send(null);
+        },2000);
+    });
+    
+    document.getElementById("agora_share").addEventListener('click', function() {
+        AgoraRTC.NSLog("agora_share clicked");
+        
+        AgoraRTC.share("https://zipyoga.jp");
     });
     
     var count = 100;
@@ -199,6 +223,10 @@ function onDeviceReady() {
         AgoraRTC.NSLog("agora_add_one_user clicked");
         count++;
         AgoraRTC.addRemoteUserView(count, "我是学生demo");;
+    });
+    
+    AgoraRTC.on("safari-back", function() {
+        AgoraRTC.NSLog("Safari 返回");
     });
 }
 
