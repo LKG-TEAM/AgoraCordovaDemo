@@ -209,6 +209,9 @@ function test_xmlhttprequest() {
 
 function test_scheme() {
     AgoraRTC.NSLog("agora_scheme clicked");
+    AgoraRTC.on("safari-back", function() {
+        alert("监听到原生的SFSafariViewController已dismiss");
+    });
     AgoraRTC.safari("http://192.168.80.46:8000/test1.html");
 }
 
