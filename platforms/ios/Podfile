@@ -6,5 +6,4 @@ target 'Agora' do
 	project 'Agora.xcodeproj'
 	pod 'AgoraRtcEngine_iOS'
 	pod 'Masonry'
-	pod 'GCDWebServer'
 end
