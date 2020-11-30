@@ -48,15 +48,15 @@
                     <p class="event listening">Connecting to Device</p>
                     <p class="event received">Device is Ready</p>
                 </div>
-                <div id="agora_direct" class="event listening button">Agora-Yoga(直接加入频道，默认uid=1)</div>
-                <div id="agora_sample_teacher" class="event listening button">Agora-Yoga(输入uid的sample入口)(推荐)(模拟老师)</div>
-                <div id="agora_sample_student" class="event listening button">Agora-Yoga(输入uid的sample入口)(推荐)(模拟学生)</div>
-                <div id="agora_leave" class="event listening button">离开</div>
-<!--                <div id="agora_add_one_user" class="event listening button">新增一个远程视图</div>-->
-                <div id="agora_close" class="event listening button">关闭</div>
-                <div id="agora_safari" class="event listening button">safari</div>
-                <div id="agora_back" class="event listening button">测试返回</div>
-                <div id="agora_share" class="event listening button">测试分享</div>
+                <div id="agora_direct" class="event listening button" onclick="test_direct()">Agora-Yoga(直接加入频道，默认uid=1)</div>
+                <div id="agora_sample_teacher" class="event listening button" onclick="test_teacher()">Agora-Yoga(输入uid的sample入口)(推荐)(模拟老师)</div>
+                <div id="agora_sample_student" class="event listening button" onclick="test_student()">Agora-Yoga(输入uid的sample入口)(推荐)(模拟学生)</div>
+                <div id="agora_leave" class="event listening button" onclick="test_leave()">离开</div>
+                <div id="agora_close" class="event listening button" onclick="test_close()">关闭</div>
+                <div id="agora_share" class="event listening button" onclick="test_share()">测试分享</div>
+                <div id="agora_xmlhttprequest" class="event listening button" onclick="test_xmlhttprequest()">XMLHttpRequest</div>
+                <div id="agora_scheme" class="event listening button" onclick="test_scheme()">URL Scheme</div>
+                <!--                <div id="agora_add_one_user" class="event listening button" onclick="test_add_one_user()">新增一个远程视图</div>-->
             </div>
         </div>
         <script src="cordova.js"></script>

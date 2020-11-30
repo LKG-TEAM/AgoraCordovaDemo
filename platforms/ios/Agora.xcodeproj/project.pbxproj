@@ -8,37 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
-		02854F043ACF4B7882D1922B /* YogaAgoraSender.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1DE02292B043258D1BCAC3 /* YogaAgoraSender.m */; };
-		08420B5A66744307AA33DACC /* YogaAgoraReceiverCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2938848C6945EAABEBB2BF /* YogaAgoraReceiverCollectionView.m */; };
-		0C04566135014A80B710A40E /* videoOn.png in Sources */ = {isa = PBXBuildFile; fileRef = C579AE7D71324E1D9E0E76FE /* videoOn.png */; };
-		0FFF766A362E47AB91EA3A5F /* YogaAgoraUtil.h in Sources */ = {isa = PBXBuildFile; fileRef = 8FE3DB4BE7224E0D9F5B1AED /* YogaAgoraUtil.h */; };
-		1B39ED0FA8744CE393BDD9F6 /* YogaAgoraReceiverCell.h in Sources */ = {isa = PBXBuildFile; fileRef = B32799358B20455A90EA355F /* YogaAgoraReceiverCell.h */; };
+		12A7D180D04648F2933E8FB1 /* YogaAgoraSenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 297FDAA23CF845298CDB091B /* YogaAgoraSenderView.m */; };
+		12B2DF78564746F2977DF8A7 /* YogaAgoraReceiverCollectionView.h in Sources */ = {isa = PBXBuildFile; fileRef = 8363D069430547C49F722DA2 /* YogaAgoraReceiverCollectionView.h */; };
+		1B263398A0AD46EE8D77856A /* YogaAgoraReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CE3B5AB7744EFF910E3A43 /* YogaAgoraReceiver.m */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
-		248F5BEB1C2441849900290A /* YogaAgoraReceiverCollectionView.h in Sources */ = {isa = PBXBuildFile; fileRef = 3269C9EBB4AF43D4933907F2 /* YogaAgoraReceiverCollectionView.h */; };
+		1E45AF5B19204EB5953F79E6 /* YogaAgoraUserModel.h in Sources */ = {isa = PBXBuildFile; fileRef = 56208F6EFD174E7DA60CD056 /* YogaAgoraUserModel.h */; };
+		2191FE6C7E2A4446B4C276E7 /* back.png in Sources */ = {isa = PBXBuildFile; fileRef = 9B92ABABD0BB4C18993C469B /* back.png */; };
+		2EE12A7BC3B049EF9A888B1D /* YogaAgoraReceiverView.h in Sources */ = {isa = PBXBuildFile; fileRef = 849A794B24CA483CA054719B /* YogaAgoraReceiverView.h */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
-		442F409B498C4CC69CEDDBBF /* videoMute.png in Sources */ = {isa = PBXBuildFile; fileRef = CFA5A6D0FE7B45A7BE4FFCDF /* videoMute.png */; };
-		4491006FEF3B4F278DB7A5FD /* YogaAgoraUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 905B9FFB66AF49F0A30DA53A /* YogaAgoraUserModel.m */; };
-		4BC6514375BD48648D6803EE /* YogaAgoraReceiverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF656A282E6E4E1B8FFD6CF8 /* YogaAgoraReceiverCell.m */; };
-		4C3FEC2F7044396F755F06DE /* Pods_Agora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1F1FBC84C97B6883AA4FDD /* Pods_Agora.framework */; };
-		4F388AC87F574D35B7C0CF9D /* YogaAgoraSenderView.h in Sources */ = {isa = PBXBuildFile; fileRef = ACD774A9A12841F382217F14 /* YogaAgoraSenderView.h */; };
-		5189E4089F9F4055BDF11691 /* YogaAgoraReceiverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAF04A81D8B431B8FEA831E /* YogaAgoraReceiverView.m */; };
-		666509207D8E498187402F96 /* YogaAgoraSender.h in Sources */ = {isa = PBXBuildFile; fileRef = D792C9ABC04C4B0784CFC94F /* YogaAgoraSender.h */; };
+		324C4B0888AE401E8AC05795 /* YogaAgoraViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DFCC1FB00446AA9B33726 /* YogaAgoraViewController.h */; };
+		3DF3A715B66647DFACD82AB9 /* YogaAgoraReceiver.h in Sources */ = {isa = PBXBuildFile; fileRef = 56B514914F454D9BBC78A084 /* YogaAgoraReceiver.h */; };
+		46E3ADE21D814850B27F400F /* voiceOn.png in Sources */ = {isa = PBXBuildFile; fileRef = AE039684420746D586A2443C /* voiceOn.png */; };
+		4DA3764FECF74CECBCEB5D59 /* YogaAgoraReceiverCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0DCEFE062E4A22BF0F30D2 /* YogaAgoraReceiverCollectionView.m */; };
+		5602E7CFE55F4656B59B4BB5 /* YogaAgoraSender.m in Sources */ = {isa = PBXBuildFile; fileRef = C03F1F81076040BE9C92B595 /* YogaAgoraSender.m */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
-		7F6FE3B155F9415EB56DB68A /* YogaAgoraUserModel.h in Sources */ = {isa = PBXBuildFile; fileRef = 8D330D69D7FD454AAC2EB887 /* YogaAgoraUserModel.h */; };
-		89C2E7CD499346F7B99106D9 /* back.png in Sources */ = {isa = PBXBuildFile; fileRef = 3D9826F48B6F46C5852701A4 /* back.png */; };
-		928BA6507B75496BA37B4FA8 /* YogaAgoraUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B82D920FB34D4C47AF816AF8 /* YogaAgoraUtil.m */; };
-		941C1795786F4A21A2B44F7F /* YogaAgoraReceiverView.h in Sources */ = {isa = PBXBuildFile; fileRef = 645A35CEE17742CBA569DA79 /* YogaAgoraReceiverView.h */; };
-		9A2AA812FE6A427A8836A89F /* YogaAgoraShared.h in Sources */ = {isa = PBXBuildFile; fileRef = 8387D29144244C228D36DC04 /* YogaAgoraShared.h */; };
-		9E6F7FC266E74D44899DC0A4 /* YogaAgoraReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C71A36B1A640C49B17984E /* YogaAgoraReceiver.m */; };
-		B483FCCCC86D4F8CBD8B05E8 /* voiceOn.png in Sources */ = {isa = PBXBuildFile; fileRef = 54B1AFE3BF274E56B9C875C7 /* voiceOn.png */; };
-		C363CD30EA9542898B58A5EE /* YogaAgoraShared.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0FB5749A7F4D92B425443F /* YogaAgoraShared.m */; };
-		CB6CB0C15AF2441CB595CC9C /* YogaAgoraReceiver.h in Sources */ = {isa = PBXBuildFile; fileRef = 37FFC82896924A05A44A4FB7 /* YogaAgoraReceiver.h */; };
-		CE47A8DB886C4E0E8E980848 /* YogaAgoraSenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8156D41635D45D8AA4F27DF /* YogaAgoraSenderView.m */; };
-		F29EBF6A3EC044AEB5F8E769 /* voiceMute.png in Sources */ = {isa = PBXBuildFile; fileRef = 1A8664D9169541B0B59E7C96 /* voiceMute.png */; };
-		FEF0F46A99C3434DBDA9DE6F /* YogaAgora.m in Sources */ = {isa = PBXBuildFile; fileRef = 56881FA4D8424E4A8F3CE714 /* YogaAgora.m */; };
+		6D421073EE1A4AC09C46C87C /* YogaAgoraSenderView.h in Sources */ = {isa = PBXBuildFile; fileRef = 745C545480A64E7DB688C1D1 /* YogaAgoraSenderView.h */; };
+		75D396B8BE5E459896CD3BA5 /* YogaAgoraUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4120F42718084162B9E17617 /* YogaAgoraUserModel.m */; };
+		805C6FBFF2D5445590ADCF15 /* YogaAgoraSender.h in Sources */ = {isa = PBXBuildFile; fileRef = FCCDFAE288204BF583038B98 /* YogaAgoraSender.h */; };
+		84146D7B81DB44F48E7669E6 /* YogaAgoraUtil.h in Sources */ = {isa = PBXBuildFile; fileRef = 2E41E225E9F94EEAA11CFE1B /* YogaAgoraUtil.h */; };
+		886DD3E399C7443E8D45B10C /* YogaAgoraUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 39636892F4D84302BDEA2B46 /* YogaAgoraUtil.m */; };
+		8B96913BC3A3469E81F40388 /* voiceMute.png in Sources */ = {isa = PBXBuildFile; fileRef = A9E8C2204D854F84AEC46D7A /* voiceMute.png */; };
+		8E15443F02794F29BB2B75DD /* YogaAgoraShared.h in Sources */ = {isa = PBXBuildFile; fileRef = A2797DFA52FA41649A7C61C6 /* YogaAgoraShared.h */; };
+		A4F4BF0386D64D53A5E55D71 /* videoOn.png in Sources */ = {isa = PBXBuildFile; fileRef = 2E12F73DE4D64C1C9D75B9DD /* videoOn.png */; };
+		A84D2188FBC54F6EB2A6DA36 /* videoMute.png in Sources */ = {isa = PBXBuildFile; fileRef = 45F30CE40BF543CF9B1B336C /* videoMute.png */; };
+		AD465AE4EE89F286E7A42751 /* Pods_Agora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCD08E37005CF04476B1DA4 /* Pods_Agora.framework */; };
+		B5EC42775E844805B8361E28 /* YogaAgoraReceiverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 348C50CC5B39488DB257B8CA /* YogaAgoraReceiverCell.m */; };
+		BE187166B5D94D57883AFBE4 /* YogaAgoraReceiverCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 77699986C9544C6C9EB4814B /* YogaAgoraReceiverCell.h */; };
+		C09D476E46964A7B825A1D7F /* YogaAgora.m in Sources */ = {isa = PBXBuildFile; fileRef = 2882F11EC1174949A3A5F849 /* YogaAgora.m */; };
+		C1CA44D32F3F4E7491D83F73 /* YogaAgoraShared.m in Sources */ = {isa = PBXBuildFile; fileRef = F262BB1F05A94800BA9F4BEC /* YogaAgoraShared.m */; };
+		CA846C01F54C46E9ABA56187 /* YogaAgoraReceiverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8062DC24699149B289C61664 /* YogaAgoraReceiverView.m */; };
+		DBCF4E791FF94F61879F5B31 /* YogaAgoraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C16ECE4C4DFA9C8D624D /* YogaAgoraViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,12 +70,16 @@
 /* Begin PBXFileReference section */
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Agora/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		097FFC7F74731BBDB687BCB6 /* Pods-Agora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agora.release.xcconfig"; path = "Target Support Files/Pods-Agora/Pods-Agora.release.xcconfig"; sourceTree = "<group>"; };
-		1A8664D9169541B0B59E7C96 /* voiceMute.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = voiceMute.png; path = CDVYogaAgoraRTC/voiceMute.png; sourceTree = "<group>"; };
-		1AAF04A81D8B431B8FEA831E /* YogaAgoraReceiverView.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = YogaAgoraReceiverView.m; path = CDVYogaAgoraRTC/YogaAgoraReceiverView.m; sourceTree = "<group>"; };
+		15CE3B5AB7744EFF910E3A43 /* YogaAgoraReceiver.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = YogaAgoraReceiver.m; path = CDVYogaAgoraRTC/YogaAgoraReceiver.m; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* Agora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2882F11EC1174949A3A5F849 /* YogaAgora.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = YogaAgora.m; path = CDVYogaAgoraRTC/YogaAgora.m; sourceTree = "<group>"; };
+		297FDAA23CF845298CDB091B /* YogaAgoraSenderView.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = YogaAgoraSenderView.m; path = CDVYogaAgoraRTC/YogaAgoraSenderView.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E12F73DE4D64C1C9D75B9DD /* videoOn.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = videoOn.png; path = CDVYogaAgoraRTC/videoOn.png; sourceTree = "<group>"; };
+		2E3DFCC1FB00446AA9B33726 /* YogaAgoraViewController.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = YogaAgoraViewController.h; path = CDVYogaAgoraRTC/YogaAgoraViewController.h; sourceTree = "<group>"; };
+		2E41E225E9F94EEAA11CFE1B /* YogaAgoraUtil.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = YogaAgoraUtil.h; path = CDVYogaAgoraRTC/YogaAgoraUtil.h; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -82,37 +88,35 @@
 		3047A50F1AB8059700498E2A /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-debug.xcconfig"; path = "cordova/build-debug.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
-		3269C9EBB4AF43D4933907F2 /* YogaAgoraReceiverCollectionView.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = YogaAgoraReceiverCollectionView.h; path = CDVYogaAgoraRTC/YogaAgoraReceiverCollectionView.h; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Agora-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Agora-Prefix.pch"; sourceTree = "<group>"; };
-		37FFC82896924A05A44A4FB7 /* YogaAgoraReceiver.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = YogaAgoraReceiver.h; path = CDVYogaAgoraRTC/YogaAgoraReceiver.h; sourceTree = "<group>"; };
-		3D9826F48B6F46C5852701A4 /* back.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = back.png; path = CDVYogaAgoraRTC/back.png; sourceTree = "<group>"; };
+		348C50CC5B39488DB257B8CA /* YogaAgoraReceiverCell.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = YogaAgoraReceiverCell.m; path = CDVYogaAgoraRTC/YogaAgoraReceiverCell.m; sourceTree = "<group>"; };
+		39636892F4D84302BDEA2B46 /* YogaAgoraUtil.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = YogaAgoraUtil.m; path = CDVYogaAgoraRTC/YogaAgoraUtil.m; sourceTree = "<group>"; };
+		4120F42718084162B9E17617 /* YogaAgoraUserModel.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = YogaAgoraUserModel.m; path = CDVYogaAgoraRTC/YogaAgoraUserModel.m; sourceTree = "<group>"; };
+		45F30CE40BF543CF9B1B336C /* videoMute.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = videoMute.png; path = CDVYogaAgoraRTC/videoMute.png; sourceTree = "<group>"; };
 		4C8159BDE577C236D4E721F0 /* Pods-Agora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agora.debug.xcconfig"; path = "Target Support Files/Pods-Agora/Pods-Agora.debug.xcconfig"; sourceTree = "<group>"; };
-		54B1AFE3BF274E56B9C875C7 /* voiceOn.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = voiceOn.png; path = CDVYogaAgoraRTC/voiceOn.png; sourceTree = "<group>"; };
-		56881FA4D8424E4A8F3CE714 /* YogaAgora.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = YogaAgora.m; path = CDVYogaAgoraRTC/YogaAgora.m; sourceTree = "<group>"; };
-		645A35CEE17742CBA569DA79 /* YogaAgoraReceiverView.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = YogaAgoraReceiverView.h; path = CDVYogaAgoraRTC/YogaAgoraReceiverView.h; sourceTree = "<group>"; };
+		56208F6EFD174E7DA60CD056 /* YogaAgoraUserModel.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = YogaAgoraUserModel.h; path = CDVYogaAgoraRTC/YogaAgoraUserModel.h; sourceTree = "<group>"; };
+		56B514914F454D9BBC78A084 /* YogaAgoraReceiver.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = YogaAgoraReceiver.h; path = CDVYogaAgoraRTC/YogaAgoraReceiver.h; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = Agora/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
-		74C71A36B1A640C49B17984E /* YogaAgoraReceiver.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = YogaAgoraReceiver.m; path = CDVYogaAgoraRTC/YogaAgoraReceiver.m; sourceTree = "<group>"; };
-		7D0FB5749A7F4D92B425443F /* YogaAgoraShared.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = YogaAgoraShared.m; path = CDVYogaAgoraRTC/YogaAgoraShared.m; sourceTree = "<group>"; };
-		8387D29144244C228D36DC04 /* YogaAgoraShared.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = YogaAgoraShared.h; path = CDVYogaAgoraRTC/YogaAgoraShared.h; sourceTree = "<group>"; };
+		745C545480A64E7DB688C1D1 /* YogaAgoraSenderView.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = YogaAgoraSenderView.h; path = CDVYogaAgoraRTC/YogaAgoraSenderView.h; sourceTree = "<group>"; };
+		77699986C9544C6C9EB4814B /* YogaAgoraReceiverCell.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = YogaAgoraReceiverCell.h; path = CDVYogaAgoraRTC/YogaAgoraReceiverCell.h; sourceTree = "<group>"; };
+		8062DC24699149B289C61664 /* YogaAgoraReceiverView.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = YogaAgoraReceiverView.m; path = CDVYogaAgoraRTC/YogaAgoraReceiverView.m; sourceTree = "<group>"; };
+		8363D069430547C49F722DA2 /* YogaAgoraReceiverCollectionView.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = YogaAgoraReceiverCollectionView.h; path = CDVYogaAgoraRTC/YogaAgoraReceiverCollectionView.h; sourceTree = "<group>"; };
+		849A794B24CA483CA054719B /* YogaAgoraReceiverView.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = YogaAgoraReceiverView.h; path = CDVYogaAgoraRTC/YogaAgoraReceiverView.h; sourceTree = "<group>"; };
+		84C1C16ECE4C4DFA9C8D624D /* YogaAgoraViewController.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = YogaAgoraViewController.m; path = CDVYogaAgoraRTC/YogaAgoraViewController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Agora-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Agora-Info.plist"; path = "Agora/Agora-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
-		8D330D69D7FD454AAC2EB887 /* YogaAgoraUserModel.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = YogaAgoraUserModel.h; path = CDVYogaAgoraRTC/YogaAgoraUserModel.h; sourceTree = "<group>"; };
-		8FE3DB4BE7224E0D9F5B1AED /* YogaAgoraUtil.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = YogaAgoraUtil.h; path = CDVYogaAgoraRTC/YogaAgoraUtil.h; sourceTree = "<group>"; };
-		905B9FFB66AF49F0A30DA53A /* YogaAgoraUserModel.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = YogaAgoraUserModel.m; path = CDVYogaAgoraRTC/YogaAgoraUserModel.m; sourceTree = "<group>"; };
-		A8156D41635D45D8AA4F27DF /* YogaAgoraSenderView.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = YogaAgoraSenderView.m; path = CDVYogaAgoraRTC/YogaAgoraSenderView.m; sourceTree = "<group>"; };
-		ACD774A9A12841F382217F14 /* YogaAgoraSenderView.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = YogaAgoraSenderView.h; path = CDVYogaAgoraRTC/YogaAgoraSenderView.h; sourceTree = "<group>"; };
-		B32799358B20455A90EA355F /* YogaAgoraReceiverCell.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = YogaAgoraReceiverCell.h; path = CDVYogaAgoraRTC/YogaAgoraReceiverCell.h; sourceTree = "<group>"; };
-		B82D920FB34D4C47AF816AF8 /* YogaAgoraUtil.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = YogaAgoraUtil.m; path = CDVYogaAgoraRTC/YogaAgoraUtil.m; sourceTree = "<group>"; };
-		BA1DE02292B043258D1BCAC3 /* YogaAgoraSender.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = YogaAgoraSender.m; path = CDVYogaAgoraRTC/YogaAgoraSender.m; sourceTree = "<group>"; };
-		BE1F1FBC84C97B6883AA4FDD /* Pods_Agora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF656A282E6E4E1B8FFD6CF8 /* YogaAgoraReceiverCell.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = YogaAgoraReceiverCell.m; path = CDVYogaAgoraRTC/YogaAgoraReceiverCell.m; sourceTree = "<group>"; };
-		C579AE7D71324E1D9E0E76FE /* videoOn.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = videoOn.png; path = CDVYogaAgoraRTC/videoOn.png; sourceTree = "<group>"; };
-		CB2938848C6945EAABEBB2BF /* YogaAgoraReceiverCollectionView.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = YogaAgoraReceiverCollectionView.m; path = CDVYogaAgoraRTC/YogaAgoraReceiverCollectionView.m; sourceTree = "<group>"; };
-		CFA5A6D0FE7B45A7BE4FFCDF /* videoMute.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = videoMute.png; path = CDVYogaAgoraRTC/videoMute.png; sourceTree = "<group>"; };
-		D792C9ABC04C4B0784CFC94F /* YogaAgoraSender.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = YogaAgoraSender.h; path = CDVYogaAgoraRTC/YogaAgoraSender.h; sourceTree = "<group>"; };
+		9B92ABABD0BB4C18993C469B /* back.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = back.png; path = CDVYogaAgoraRTC/back.png; sourceTree = "<group>"; };
+		9CCD08E37005CF04476B1DA4 /* Pods_Agora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2797DFA52FA41649A7C61C6 /* YogaAgoraShared.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = YogaAgoraShared.h; path = CDVYogaAgoraRTC/YogaAgoraShared.h; sourceTree = "<group>"; };
+		A9E8C2204D854F84AEC46D7A /* voiceMute.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = voiceMute.png; path = CDVYogaAgoraRTC/voiceMute.png; sourceTree = "<group>"; };
+		AE039684420746D586A2443C /* voiceOn.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = voiceOn.png; path = CDVYogaAgoraRTC/voiceOn.png; sourceTree = "<group>"; };
+		C03F1F81076040BE9C92B595 /* YogaAgoraSender.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = YogaAgoraSender.m; path = CDVYogaAgoraRTC/YogaAgoraSender.m; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		F262BB1F05A94800BA9F4BEC /* YogaAgoraShared.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = YogaAgoraShared.m; path = CDVYogaAgoraRTC/YogaAgoraShared.m; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = Agora/config.xml; sourceTree = "<group>"; };
+		FCCDFAE288204BF583038B98 /* YogaAgoraSender.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = YogaAgoraSender.h; path = CDVYogaAgoraRTC/YogaAgoraSender.h; sourceTree = "<group>"; };
+		FE0DCEFE062E4A22BF0F30D2 /* YogaAgoraReceiverCollectionView.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = YogaAgoraReceiverCollectionView.m; path = CDVYogaAgoraRTC/YogaAgoraReceiverCollectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
-				4C3FEC2F7044396F755F06DE /* Pods_Agora.framework in Frameworks */,
+				AD465AE4EE89F286E7A42751 /* Pods_Agora.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +153,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+		29B97314FDCFA39411CA2CEA = {
 			isa = PBXGroup;
 			children = (
 				EB87FDF41871DAF40020F90C /* config.xml */,
@@ -193,7 +197,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BE1F1FBC84C97B6883AA4FDD /* Pods_Agora.framework */,
+				9CCD08E37005CF04476B1DA4 /* Pods_Agora.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -220,30 +224,32 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				56881FA4D8424E4A8F3CE714 /* YogaAgora.m */,
-				8387D29144244C228D36DC04 /* YogaAgoraShared.h */,
-				7D0FB5749A7F4D92B425443F /* YogaAgoraShared.m */,
-				645A35CEE17742CBA569DA79 /* YogaAgoraReceiverView.h */,
-				1AAF04A81D8B431B8FEA831E /* YogaAgoraReceiverView.m */,
-				3269C9EBB4AF43D4933907F2 /* YogaAgoraReceiverCollectionView.h */,
-				CB2938848C6945EAABEBB2BF /* YogaAgoraReceiverCollectionView.m */,
-				B32799358B20455A90EA355F /* YogaAgoraReceiverCell.h */,
-				BF656A282E6E4E1B8FFD6CF8 /* YogaAgoraReceiverCell.m */,
-				ACD774A9A12841F382217F14 /* YogaAgoraSenderView.h */,
-				A8156D41635D45D8AA4F27DF /* YogaAgoraSenderView.m */,
-				37FFC82896924A05A44A4FB7 /* YogaAgoraReceiver.h */,
-				74C71A36B1A640C49B17984E /* YogaAgoraReceiver.m */,
-				D792C9ABC04C4B0784CFC94F /* YogaAgoraSender.h */,
-				BA1DE02292B043258D1BCAC3 /* YogaAgoraSender.m */,
-				8FE3DB4BE7224E0D9F5B1AED /* YogaAgoraUtil.h */,
-				B82D920FB34D4C47AF816AF8 /* YogaAgoraUtil.m */,
-				8D330D69D7FD454AAC2EB887 /* YogaAgoraUserModel.h */,
-				905B9FFB66AF49F0A30DA53A /* YogaAgoraUserModel.m */,
-				CFA5A6D0FE7B45A7BE4FFCDF /* videoMute.png */,
-				C579AE7D71324E1D9E0E76FE /* videoOn.png */,
-				1A8664D9169541B0B59E7C96 /* voiceMute.png */,
-				54B1AFE3BF274E56B9C875C7 /* voiceOn.png */,
-				3D9826F48B6F46C5852701A4 /* back.png */,
+				2882F11EC1174949A3A5F849 /* YogaAgora.m */,
+				A2797DFA52FA41649A7C61C6 /* YogaAgoraShared.h */,
+				F262BB1F05A94800BA9F4BEC /* YogaAgoraShared.m */,
+				849A794B24CA483CA054719B /* YogaAgoraReceiverView.h */,
+				8062DC24699149B289C61664 /* YogaAgoraReceiverView.m */,
+				8363D069430547C49F722DA2 /* YogaAgoraReceiverCollectionView.h */,
+				FE0DCEFE062E4A22BF0F30D2 /* YogaAgoraReceiverCollectionView.m */,
+				77699986C9544C6C9EB4814B /* YogaAgoraReceiverCell.h */,
+				348C50CC5B39488DB257B8CA /* YogaAgoraReceiverCell.m */,
+				745C545480A64E7DB688C1D1 /* YogaAgoraSenderView.h */,
+				297FDAA23CF845298CDB091B /* YogaAgoraSenderView.m */,
+				2E3DFCC1FB00446AA9B33726 /* YogaAgoraViewController.h */,
+				84C1C16ECE4C4DFA9C8D624D /* YogaAgoraViewController.m */,
+				56B514914F454D9BBC78A084 /* YogaAgoraReceiver.h */,
+				15CE3B5AB7744EFF910E3A43 /* YogaAgoraReceiver.m */,
+				FCCDFAE288204BF583038B98 /* YogaAgoraSender.h */,
+				C03F1F81076040BE9C92B595 /* YogaAgoraSender.m */,
+				2E41E225E9F94EEAA11CFE1B /* YogaAgoraUtil.h */,
+				39636892F4D84302BDEA2B46 /* YogaAgoraUtil.m */,
+				56208F6EFD174E7DA60CD056 /* YogaAgoraUserModel.h */,
+				4120F42718084162B9E17617 /* YogaAgoraUserModel.m */,
+				45F30CE40BF543CF9B1B336C /* videoMute.png */,
+				2E12F73DE4D64C1C9D75B9DD /* videoOn.png */,
+				A9E8C2204D854F84AEC46D7A /* voiceMute.png */,
+				AE039684420746D586A2443C /* voiceOn.png */,
+				9B92ABABD0BB4C18993C469B /* back.png */,
 			);
 			name = Plugins;
 			path = Agora/Plugins;
@@ -279,7 +285,7 @@
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
-				7990661296FF465720544690 /* [CP] Embed Pods Frameworks */,
+				6DBCBA693FD19ADCBA042A7B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -307,7 +313,7 @@
 				en,
 				Base,
 			);
-			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			mainGroup = 29B97314FDCFA39411CA2CEA;
 			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
 			projectDirPath = "";
 			projectReferences = (
@@ -369,7 +375,7 @@
 			shellScript = "\"$SRCROOT/Agora/Scripts/copy-www-build-step.sh\"";
 			showEnvVarsInLog = 0;
 		};
-		7990661296FF465720544690 /* [CP] Embed Pods Frameworks */ = {
+		6DBCBA693FD19ADCBA042A7B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -418,30 +424,32 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				FEF0F46A99C3434DBDA9DE6F /* YogaAgora.m in Sources */,
-				9A2AA812FE6A427A8836A89F /* YogaAgoraShared.h in Sources */,
-				C363CD30EA9542898B58A5EE /* YogaAgoraShared.m in Sources */,
-				941C1795786F4A21A2B44F7F /* YogaAgoraReceiverView.h in Sources */,
-				5189E4089F9F4055BDF11691 /* YogaAgoraReceiverView.m in Sources */,
-				248F5BEB1C2441849900290A /* YogaAgoraReceiverCollectionView.h in Sources */,
-				08420B5A66744307AA33DACC /* YogaAgoraReceiverCollectionView.m in Sources */,
-				1B39ED0FA8744CE393BDD9F6 /* YogaAgoraReceiverCell.h in Sources */,
-				4BC6514375BD48648D6803EE /* YogaAgoraReceiverCell.m in Sources */,
-				4F388AC87F574D35B7C0CF9D /* YogaAgoraSenderView.h in Sources */,
-				CE47A8DB886C4E0E8E980848 /* YogaAgoraSenderView.m in Sources */,
-				CB6CB0C15AF2441CB595CC9C /* YogaAgoraReceiver.h in Sources */,
-				9E6F7FC266E74D44899DC0A4 /* YogaAgoraReceiver.m in Sources */,
-				666509207D8E498187402F96 /* YogaAgoraSender.h in Sources */,
-				02854F043ACF4B7882D1922B /* YogaAgoraSender.m in Sources */,
-				0FFF766A362E47AB91EA3A5F /* YogaAgoraUtil.h in Sources */,
-				928BA6507B75496BA37B4FA8 /* YogaAgoraUtil.m in Sources */,
-				7F6FE3B155F9415EB56DB68A /* YogaAgoraUserModel.h in Sources */,
-				4491006FEF3B4F278DB7A5FD /* YogaAgoraUserModel.m in Sources */,
-				442F409B498C4CC69CEDDBBF /* videoMute.png in Sources */,
-				0C04566135014A80B710A40E /* videoOn.png in Sources */,
-				F29EBF6A3EC044AEB5F8E769 /* voiceMute.png in Sources */,
-				B483FCCCC86D4F8CBD8B05E8 /* voiceOn.png in Sources */,
-				89C2E7CD499346F7B99106D9 /* back.png in Sources */,
+				C09D476E46964A7B825A1D7F /* YogaAgora.m in Sources */,
+				8E15443F02794F29BB2B75DD /* YogaAgoraShared.h in Sources */,
+				C1CA44D32F3F4E7491D83F73 /* YogaAgoraShared.m in Sources */,
+				2EE12A7BC3B049EF9A888B1D /* YogaAgoraReceiverView.h in Sources */,
+				CA846C01F54C46E9ABA56187 /* YogaAgoraReceiverView.m in Sources */,
+				12B2DF78564746F2977DF8A7 /* YogaAgoraReceiverCollectionView.h in Sources */,
+				4DA3764FECF74CECBCEB5D59 /* YogaAgoraReceiverCollectionView.m in Sources */,
+				BE187166B5D94D57883AFBE4 /* YogaAgoraReceiverCell.h in Sources */,
+				B5EC42775E844805B8361E28 /* YogaAgoraReceiverCell.m in Sources */,
+				6D421073EE1A4AC09C46C87C /* YogaAgoraSenderView.h in Sources */,
+				12A7D180D04648F2933E8FB1 /* YogaAgoraSenderView.m in Sources */,
+				324C4B0888AE401E8AC05795 /* YogaAgoraViewController.h in Sources */,
+				DBCF4E791FF94F61879F5B31 /* YogaAgoraViewController.m in Sources */,
+				3DF3A715B66647DFACD82AB9 /* YogaAgoraReceiver.h in Sources */,
+				1B263398A0AD46EE8D77856A /* YogaAgoraReceiver.m in Sources */,
+				805C6FBFF2D5445590ADCF15 /* YogaAgoraSender.h in Sources */,
+				5602E7CFE55F4656B59B4BB5 /* YogaAgoraSender.m in Sources */,
+				84146D7B81DB44F48E7669E6 /* YogaAgoraUtil.h in Sources */,
+				886DD3E399C7443E8D45B10C /* YogaAgoraUtil.m in Sources */,
+				1E45AF5B19204EB5953F79E6 /* YogaAgoraUserModel.h in Sources */,
+				75D396B8BE5E459896CD3BA5 /* YogaAgoraUserModel.m in Sources */,
+				A84D2188FBC54F6EB2A6DA36 /* videoMute.png in Sources */,
+				A4F4BF0386D64D53A5E55D71 /* videoOn.png in Sources */,
+				8B96913BC3A3469E81F40388 /* voiceMute.png in Sources */,
+				46E3ADE21D814850B27F400F /* voiceOn.png in Sources */,
+				2191FE6C7E2A4446B4C276E7 /* back.png in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

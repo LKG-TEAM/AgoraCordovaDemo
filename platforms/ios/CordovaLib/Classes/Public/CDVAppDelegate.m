@@ -18,6 +18,7 @@
  */
 
 #import "CDVAppDelegate.h"
+#import <SafariServices/SafariServices.h>
 
 @implementation CDVAppDelegate
 
