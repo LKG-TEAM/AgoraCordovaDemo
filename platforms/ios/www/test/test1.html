@@ -4,14 +4,19 @@
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
     </head>
-    <body style="background-color:yellow;">
+    <body style="background-color:red;">
         <div style="position:absolute;left:50%;top:50%;transform: translate(-50%, -50%);" onclick="test()" onclick="test()">
             Exit
         </div>
     </body>
     <script>
         function test() {
-            window.location.href = "test2.html";
+            console.log("插入标签");
+            // 插入 meta 标签
+            var oMeta = document.createElement('meta');
+            oMeta.content = "0; URL='zipyoga://back'";
+            oMeta.httpEquiv = 'Refresh';
+            document.getElementsByTagName('head')[0].appendChild(oMeta);
         }
     </script>
 </html>
